@@ -1,0 +1,279 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 440,
+      "max": [
+        0.067574791610240936,
+        0.05819433182477951,
+        0.090046398341655731
+      ],
+      "min": [
+        -0.064217031002044678,
+        -0.063027441501617432,
+        -0.079334191977977753
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5280,
+      "componentType": 5126,
+      "count": 440,
+      "max": [
+        0.99647980928421021,
+        0.99715131521224976,
+        0.99751758575439453
+      ],
+      "min": [
+        -0.99694067239761353,
+        -0.98959380388259888,
+        -0.99640029668807983
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 440,
+      "max": [
+        0.98782479763031006,
+        0.99777591228485107,
+        0.96408861875534058,
+        1
+      ],
+      "min": [
+        -0.98824584484100342,
+        -0.96845817565917969,
+        -0.99901938438415527,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 440,
+      "max": [
+        0.98985511064529419,
+        0.97867310047149658
+      ],
+      "min": [
+        0.010144820436835289,
+        0.013225969858467579
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2034,
+      "max": [
+        439
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "SkyeShark (https://sketchfab.com/skyeshark)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/573801ef1f514db187fd15e13a42fc1d",
+      "title": "Bell Pepper - Oculus Medium"
+    },
+    "generator": "Sketchfab-3.19.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 8136,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3520,
+      "byteOffset": 8136,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10560,
+      "byteOffset": 11656,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7040,
+      "byteOffset": 22216,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 29256,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Layer_1_mtl_001_baseColor.png"
+    },
+    {
+      "uri": "Layer_1_mtl_001_normal.png"
+    },
+    {
+      "uri": "Layer_1_mtl_001_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Layer_1_mtl_001",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.65000000000000002
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Layer_1_mtl_001-material",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        8.3962970000000006,
+        -0.144153,
+        -0.63649489999999997,
+        0,
+        8.6046700000000006e-09,
+        8.2136049999999994,
+        -1.860212,
+        0,
+        0.65261460000000004,
+        1.8546180000000001,
+        8.1889070000000004,
+        0,
+        0,
+        0,
+        0.72370820000000002,
+        1
+      ],
+      "name": "lowpoly"
+    },
+    {
+      "mesh": 0,
+      "name": "Layer_1_mtl_001-material"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
